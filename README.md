@@ -8,9 +8,9 @@ Cloudflare Stream builds their playlist variants based on the ingest rate, so if
 
 # Not perfect solution
 
-This little app rewrites the playlist to use pre-defined bandwidth rates, so player's have an easier time guessing which level to pick. It's not perfect, but reduces the risk of getting a bad playlist from Cloudflare.
+This little app rewrites the playlist to use pre-defined bandwidth rates, so players have an easier time guessing which level to pick. It's not perfect, but reduces the risk of getting a bad playlist from Cloudflare.
 
-We can only wish for Cloudflare to add a feature to make custom playlist variants, but for now, it's hacks or choosing another platform. At this point I'm too far into integrating this into our system, so no point of return.
+We can only wish for Cloudflare to add a feature to make custom playlist variants, but for now, it's hacks or choosing another platform. At this point we're too far into integrating this into our systems, so no point of return.
 
 # How to use
 
