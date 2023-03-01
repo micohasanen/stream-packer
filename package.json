@@ -1,0 +1,26 @@
+{
+  "name": "stream-parser",
+  "version": "1.0.0",
+  "description": "Gets a HLS playlist and forces bandwidth levels.",
+  "main": "dist/app.js",
+  "author": "Mico Hasanen",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/app.ts"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hls-parser": "^0.10.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/hls-parser": "^0.8.4",
+    "@types/node": "^18.14.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
